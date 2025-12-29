@@ -1,0 +1,15 @@
+# 모든 파일 제외
+*
+
+# 릴리즈 앱만 포함
+!release/
+release/*
+!release/win-unpacked/
+!release/win-unpacked/**/*
+
+# README와 이미지는 포함
+!.gitignore
+!README.md
+!images/
+!images/**
+
